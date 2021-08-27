@@ -3,27 +3,24 @@
 
 * {
   margin: 20px;
-
 }
 
 body {
-
   display: flex;
   height: 90vh;
-  /* margin: 20px 100px; */
-  background-color: #f2f2f2;
-  background-image: url(./assets/images/fondnormal.jpg);
+  margin: 20px 100px;
+  background-image: url("../images/fondunderweight.jpg");
   background-size: cover;
 }
 
 .body {
   margin: auto auto;
-  width: 90%;
   display: inline-block;
   box-shadow: 0 0 12px rgba(200, 200, 200, 0.7);
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(5px);
+
 }
 
 .link {
@@ -40,13 +37,13 @@ a {
 }
 
 h1 {
-  text-transform: uppercase;
   margin: 0%;
-  background-color: green;
+  background-color: rgba(16, 176, 250, 0.719);
   color: white;
   padding: 2.5%;
   font-size: 40px;
   text-align: center;
+  text-transform: uppercase;
   font-family: poppins;
 }
 
@@ -55,10 +52,9 @@ h1 {
 }
 
 .text {
-  width: 60%;
+  width: 65%;
   justify-content: center;
   align-items: center;
-  /* font-size: 20px; */
   font-family: Lora;
 }
 
@@ -69,7 +65,7 @@ h1 {
 }
 
 table {
-  height: 200px;
+  height: 100px;
 }
 
 table,
@@ -88,12 +84,14 @@ th {
   color: white;
 }
 
-.normal {
+.underweight {
+  background-color: rgba(16, 176, 250, 0.719);
+  ;
   color: white;
-  background-color: green;
 }
 
 span {
-  color: green;
-  font-size: 20px;
+  color: rgba(16, 176, 250, 0.719);
+  ;
+  font-size: 18px;
 }

@@ -6,16 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Overweight</title>
-  <link rel="stylesheet" href="Overweight.css" />
+  <link rel="stylesheet" href="../assets/css/Overweight.css" />
 </head>
 
 <body>
   <div class="body">
     <h1>Your BMI Results</h1>
-    <div class="link"><a href="index.html">Recalculate your BMI</a></div>
+    <div class="link"><a href="../index.html">Recalculate your BMI</a></div>
     <div class="format">
       <div class="text">
-        ><p>For the information you entered:</p>
+        <p>For the information you entered:</p>
         <p>Your Height <span id="normalHeight"></span></p>
         <p>Your Weight: <span id="normalWeight"></span></p>
         <p>Your BMI is <span id="result"></span></p>
@@ -71,7 +71,7 @@
     result.innerHTML = sessionStorage.getItem("result");
     console.log(weight, height);
   </script>
-  <script src="script.js"></script>
+  <script src="../assets/js/script.js"></script>
 </body>
 
 </html>

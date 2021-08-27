@@ -20,20 +20,20 @@ function Calculate(weight, height) {
     sessionStorage.setItem('height', height);
 
     if (result < 18.5) {
-        window.location.href = '/Underweight.html';
+        window.location.href = '/pages/Underweight.html';
 
         console.log(result, 'underweight');
 
     } else if (result >= 18.5 && result < 25) {
-        window.location.href = '/Normal.html';
+        window.location.href = '/pages/Normal.html';
 
         console.log(result, 'normal');
     } else if (result >= 25.0 && result < 30) {
         console.log(result, "Overweight");
-        window.location.href = '/Overweight.html';
+        window.location.href = '/pages/Overweight.html';
     } else {
         console.log(result, "obese");
-        window.location.href = '/Obese.html';
+        window.location.href = '/pages/Obese.html';
     }
 }
 

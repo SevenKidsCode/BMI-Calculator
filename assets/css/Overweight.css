@@ -3,13 +3,15 @@
 
 * {
     margin: 10px;
+
 }
 
 body {
     display: flex;
     height: 90vh;
     margin: 20px 100px;
-    background-image: url(./assets/images/fondobese.jpg);
+    background-image: url("../images/fondoverweight.jpg");
+    background-size: cover;
 }
 
 .body {
@@ -37,7 +39,7 @@ a {
 
 h1 {
     margin: 0%;
-    background-color: rgba(241, 42, 42, 0.829);
+    background-color: rgb(255, 136, 0);
     color: white;
     padding: 2.5%;
     font-size: 40px;
@@ -54,7 +56,7 @@ h1 {
     width: 60%;
     align-items: center;
     font-family: Lora;
-    /* font-size: 18px; */
+    font-size: 18px;
 }
 
 .table {
@@ -80,15 +82,14 @@ th {
     color: white;
 }
 
-.obese {
-    background-color: rgba(241, 42, 42, 0.829);
+.overweight {
+    background-color: rgb(255, 136, 0);
     ;
-    color: white;
+    color: white
 }
 
 span {
-    color: rgba(241, 42, 42, 0.829);
+    color: rgb(255, 136, 0);
     ;
     font-size: 17px;
-
 }

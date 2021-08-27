@@ -10,10 +10,27 @@ Body mass index (BMI) is a value derived from the mass (weight) and height of a 
 Your BMI is a measurement that is a ratio of your weight and height. It's a good way to gauge whether your weight is in healthy proportion to your height. In fact, knowing your BMI can help you – and your GP – determine any health risks you may face if it's outside of the healthy range.
 
 
-![GitHub Logo](./sample.png)
+
+# User Interface
+
+![GitHub Logo](./assets/results/sample.png)
+
+# UnderWeight Results
+![GitHub Logo](./assets/results/underweight.png)
 
 
-Hosted Link:
+# Normal Results
+![GitHub Logo](./assets/results/normal.png)
+
+# Overweight Results
+![GitHub Logo](./assets/results/overweight.png)
+
+
+# Obessed Results
+![GitHub Logo](./assets/results/obesed.png)
+
+
+# Hosted Link:
 
 :point_down: :point_down: :point_down:
 
