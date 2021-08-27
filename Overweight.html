@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Overweight</title>
+  <link rel="stylesheet" href="Overweight.css" />
+</head>
+
+<body>
+  <div class="body">
+    <h1>Your BMI Results</h1>
+    <div class="link"><a href="index.html">Recalculate your BMI</a></div>
+    <div class="format">
+      <div class="text">
+        ><p>For the information you entered:</p>
+        <p>Your Height <span id="normalHeight"></span></p>
+        <p>Your Weight: <span id="normalWeight"></span></p>
+        <p>Your BMI is <span id="result"></span></p>
+        <p>
+          This indicates that your weight is in the
+          <span>Overweight</span> category of your height.
+        </p>
+        <p>
+          People who are overweight are at higher risk for chronic
+          conditions such as high blood pressure, diabetes, and high
+          cholesterol.
+        </p>
+        <p>
+          Anyone who is overweight should try to avoid gaining additional
+          weight. Also, if you are overweight, you should try to lose weight. Even modest
+          weight loss may help lower the risk of disease. Talk with your
+          healthcare provider to determine appropriate ways to lose weight.
+        </p></b>
+      </div>
+      <div class="table">
+        <table>
+          <tr>
+            <th>BMI</th>
+            <th>Weight Status</th>
+          </tr>
+          <tr>
+            <td>Below 18.5</td>
+            <td>Underweight</td>
+          </tr>
+          <tr>
+            <td>18.5 - 24.9</td>
+            <td>Normal</td>
+          </tr>
+          <tr class="overweight">
+            <td>25.0 - 29.9</td>
+            <td>Overweight</td>
+          </tr>
+          <tr>
+            <td>30.0 and Above</td>
+            <td>Obese</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let weight = document.getElementById("normalWeight");
+    let height = document.getElementById("normalHeight");
+    let result = document.getElementById("result");
+    weight.innerHTML = sessionStorage.getItem("weight");
+    height.innerHTML = sessionStorage.getItem("height");
+    result.innerHTML = sessionStorage.getItem("result");
+    console.log(weight, height);
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>

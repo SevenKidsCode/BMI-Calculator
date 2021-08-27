@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+* {
+  margin: 0;
+  font-family: Mukta;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+.text {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text div {
+  /* background: #000; */
+  margin: 0 50px;
+}
+
+.text p,
+.text h1 {
+  text-align: center;
+}
+
+.image {
+  /* margin: 20px; */
+  width: 60%;
+  /* height: 90vh; */
+  background: url("./assets/images/fondaccueil.jpg");
+  /* background-repeat: no-repeat; */
+    background-position: center;
+  background-size: cover;
+  
+}
+
+h1 {
+  font-family: teko;
+  border-bottom: 3px solid black;
+  margin-left: 28%;
+  margin-right: 28%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+input {
+  margin-top: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+}
+
+.myform div {
+  margin: 20px auto;
+}
+
+.card {
+  width: 70%;
+}
+
+.button {
+  width: 30%;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+  margin: 20px auto;
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: all 0.7s;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(74, 189, 74);
+  color: #fff;
+  transition: all 0.7s;
+}
+
+.scale {
+  margin-top: 80px;
+  width: 100%;
+}

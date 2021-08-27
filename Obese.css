@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Poppins:wght@800&display=swap');
+
+* {
+    margin: 10px;
+}
+
+body {
+    display: flex;
+    height: 90vh;
+    margin: 20px 100px;
+    background-image: url(./assets/images/fondobese.jpg);
+}
+
+.body {
+    margin: auto auto;
+    display: inline-block;
+    box-shadow: 0 0 12px rgba(200, 200, 200, 0.7);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+
+}
+
+.link {
+    text-align: right;
+    font-size: 20px;
+}
+
+a {
+    color: rgba(95, 91, 91, 0.753);
+    text-decoration: none;
+    border: 2px solid rgba(95, 91, 91, 0.753);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+h1 {
+    margin: 0%;
+    background-color: rgba(241, 42, 42, 0.829);
+    color: white;
+    padding: 2.5%;
+    font-size: 40px;
+    text-align: center;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+
+.format {
+    display: flex;
+}
+
+.text {
+    width: 60%;
+    align-items: center;
+    font-family: Lora;
+    /* font-size: 18px; */
+}
+
+.table {
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    padding: 12px;
+    font-family: Lora;
+}
+
+th {
+    background-color: rgba(95, 91, 91, 0.753);
+    ;
+    font-family: poppins;
+    color: white;
+}
+
+.obese {
+    background-color: rgba(241, 42, 42, 0.829);
+    ;
+    color: white;
+}
+
+span {
+    color: rgba(241, 42, 42, 0.829);
+    ;
+    font-size: 17px;
+
+}
