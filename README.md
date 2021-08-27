@@ -11,6 +11,12 @@ Your BMI is a measurement that is a ratio of your weight and height. It's a good
 
 
 ![GitHub Logo](./sample.png)
-7GCE Landing page: [click me!](https://lesprogrammeurbmical.netlify.app/)
+
+
+Hosted Link:
+
+:point_down: :point_down: :point_down:
+
+[Click Here!](https://lesprogrammeurbmical.netlify.app/)
 
 Made with :heart: by @lesprogrammeur during the sevenKids code program August 2021
